@@ -31,7 +31,17 @@ env/
 *.m4a
 
 # Dataset
-data/
+# Bỏ qua toàn bộ data
+data/*
+
+# Nhưng cho phép đi vào processed
+!data/processed/
+
+# Trong processed vẫn bỏ qua mọi file
+data/processed/*
+
+# Ngoại trừ train.csv
+!data/processed/train.csv
 dataset/
 datasets/
 
