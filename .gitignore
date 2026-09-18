@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Model / checkpoint
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Audio
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Dataset
+data/
+dataset/
+datasets/
+
+# Outputs
+output/
+outputs/
+results/
+logs/
+*.log
+
+# Cache
+.cache/
+huggingface/
